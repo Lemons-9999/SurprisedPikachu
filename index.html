@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprised Pikachu Coin</title>
+    <link rel="icon" type="image/png" href="surprise.png">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('backgroundforpokemon.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        header img {
+            max-width: 150px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 10px 0;
+        }
+
+        header h2 {
+            font-size: 1.8em;
+            color: red;
+            font-weight: bold;
+            text-shadow: none;
+            animation: flicker 1.2s infinite;
+        }
+
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            animation: fade-in 2s ease-in-out;
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height: 400px;
+        }
+
+        .slideshow {
+            display: flex;
+            animation: scroll 60s linear infinite;
+            width: calc(300px * 40);
+        }
+
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-35%);
+            }
+        }
+
+        .slideshow img {
+            flex: 0 0 auto;
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            margin-right: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .social-links img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="surprise.png" alt="Surprised Pikachu Logo">
+        <h1>Surprised Pikachu Coin</h1>
+        <h2>COMING SOON - UNDER DEVELOPMENT</h2>
+    </header>
+
+    <section id="story">
+        <h2>About</h2>
+        <p>Surprised Pikachu Coin is a meme token that's all about fun, laughter, and the shock of life. Forget changing the world; we're here to spread chuckles and coins. Powered by blockchain, fueled by humor, and destined to brighten your day.</p>
+
+        <h2>Mission</h2>
+        <p>We don’t have a cure for stress, but we do have memes! Our mission is simple: keep it chill, keep it fun, and keep the laughs coming. Join us as we turn internet giggles into crypto gold. No promises, just vibes. 🐭💸</p>
+        <h3>The token will be released when we reach 300 members in our telegram channel.</h3>
+    </section>
+
+    <section>
+        <h2>Meme Gallery</h2>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <img src="surprise.png" alt="Meme 1">
+                <img src="backgroundforpokemon.png" alt="Meme 2">
+                <img src="sigma.png" alt="Meme 3">
+                <img src="surprise.png" alt="Meme 4">
+                <img src="Yellowjackets_cast.jpg" alt="Meme 5">
+                <img src="zachpfp.png" alt="Meme 6">
+                <img src="surprise.png" alt="Meme 7">
+                <img src="surprise.png" alt="Meme 8">
+                <img src="surprise.png" alt="Meme 9">
+                <img src="surprise.png" alt="Meme 10">
+                <img src="millenials.jpg" alt="Meme 11">
+                <img src="surprise.png" alt="Meme 12">
+                <img src="surprise.png" alt="Meme 13">
+                <img src="surprise.png" alt="Meme 14">
+                <img src="surprise.png" alt="Meme 15">
+                <img src="surprise.png" alt="Meme 16">
+                <img src="surprise.png" alt="Meme 17">
+                <img src="surprise.png" alt="Meme 18">
+                <img src="surprise.png" alt="Meme 19">
+                <img src="surprise.png" alt="Meme 20">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="social-links">
+            <a href="https://t.me/surprisedpika" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="Telegram">
+            </a>
+            <a href="https://x.com/PikaSpriseCoin" target="_blank">
+                <img src="image.png" alt="Twitter">
+            </a>
+        </div>
+    </section>
+
+    <script>
+        function recursiveAnimateTitle(string) {
+            let firstLetter = string[0];
+            let title = document.querySelector('title');
+            title.innerHTML += firstLetter;
+            if (string.length > 1) {
+                setTimeout(function() {
+                    recursiveAnimateTitle(string.substring(1));
+                }, 100);
+            }
+        }
+
+        function animateTitle(string) {
+            document.querySelector('title').innerHTML = "";
+            recursiveAnimateTitle(string);
+        }
+
+        animateTitle('Surprised Pikachu Coin');
+    </script>
+</body>
+</html>
